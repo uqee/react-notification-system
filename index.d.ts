@@ -21,7 +21,7 @@ declare namespace NotificationSystem {
         title?: string;
         message?: string;
         level?: "error" | "warning" | "info" | "success";
-        position?: "tr" | "tl" | "tc" | "br" | "bl" | "bc";
+        position?: "in" | "tr" | "tl" | "tc" | "br" | "bl" | "bc";
         autoDismiss?: number;
         dismissible?: boolean;
         action?: ActionObject;
